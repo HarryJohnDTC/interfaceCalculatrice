@@ -24,7 +24,7 @@ class Calculatrice extends StatelessWidget {
                 color: Color.fromARGB(255, 14, 54, 75),
               ),
               child: const Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                //mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Text(
@@ -39,7 +39,7 @@ class Calculatrice extends StatelessWidget {
                     '8+(20*6)/20*(9*135)',
                     style: TextStyle(
                       color: Colors.blueGrey,
-                      fontSize: 48,
+                      fontSize: 38,
                       fontFamily: 'Digital7',
                     ),
                   ),
@@ -56,7 +56,7 @@ class Calculatrice extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 10,
+              height: 50,
             ),
             Column(
               children: [
@@ -65,17 +65,17 @@ class Calculatrice extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor:
-                            Colors.orange, // Changer la couleur de fond
-                        foregroundColor:
-                            Colors.white, // Changer la couleur du texte
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(
-                              5), //  0 pour un bouton carré
-                        ),
-                      ),
+                          backgroundColor:
+                              Colors.orange, // Changer la couleur de fond
+                          foregroundColor:
+                              Colors.white, // Changer la couleur du texte
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 1, vertical: 15),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(
+                                5), //  0 pour un bouton carré
+                          ),
+                          fixedSize: const Size(75, 70)),
                       onPressed: () {},
                       child: const Text(
                         'C',
@@ -89,11 +89,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -108,11 +109,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -127,11 +129,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -154,11 +157,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -173,11 +177,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -192,11 +197,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -211,11 +217,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -238,11 +245,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -257,11 +265,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -276,11 +285,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -295,11 +305,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -322,11 +333,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -341,11 +353,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -360,11 +373,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -379,11 +393,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -401,21 +416,21 @@ class Calculatrice extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor:
-                            Colors.orange, // Changer la couleur de fond
-                        foregroundColor:
-                            Colors.white, // Changer la couleur du texte
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(
-                              5), //  0 pour un bouton carré
-                        ),
-                      ),
+                          backgroundColor:
+                              Colors.orange, // Changer la couleur de fond
+                          foregroundColor:
+                              Colors.white, // Changer la couleur du texte
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 1, vertical: 15),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(
+                                5), //  0 pour un bouton carré
+                          ),
+                          fixedSize: const Size(75, 70)),
                       onPressed: () {},
                       child: const Text(
-                        '<',
-                        style: TextStyle(fontSize: 26),
+                        'Del',
+                        style: TextStyle(fontSize: 22),
                       ),
                     ),
                     ElevatedButton(
@@ -425,11 +440,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -444,11 +460,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
@@ -463,11 +480,12 @@ class Calculatrice extends StatelessWidget {
                         foregroundColor:
                             Colors.white, // Changer la couleur du texte
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 30, vertical: 15),
+                            horizontal: 1, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(
                               5), //  0 pour un bouton carré
                         ),
+                        fixedSize: const Size(75, 70),
                       ),
                       onPressed: () {},
                       child: const Text(
